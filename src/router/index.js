@@ -6,7 +6,6 @@ const TimeLines = ()=>import('views/timelines/TimeLines.vue');
 const Friends = ()=>import('views/friends/Friends.vue');
 const Login = ()=>import('views/login/Login.vue');
 const Search = ()=>import('views/search/Search.vue');
-const Links = ()=>import('views/links/Links.vue');
 
 const routes = [
   {
@@ -43,11 +42,6 @@ const routes = [
     name: 'Search',
     component: Search
   },
-  {
-    path: '/links',
-    name: 'Links',
-    component: Links
-  }
 ]
 
 const router = createRouter({

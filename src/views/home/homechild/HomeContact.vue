@@ -7,7 +7,6 @@
         <slot name="home-all-items"></slot>
       </div>
       <div class="label">
-        <div>标签</div>
         <slot name="home-label-items"></slot>
       </div>
     </div>
@@ -32,6 +31,7 @@ export default {
 }
 .home-article-all .nav .all {
   flex: 2;
+  margin-right: 20px;
 }
 .home-article-all .nav .label {
   flex: 1;

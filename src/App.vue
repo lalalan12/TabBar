@@ -15,7 +15,6 @@ export default {
       title: [
         { name: "首页", path: "/home" },
         { name: "留言", path: "/message" },
-        { name: "友邻", path: "/links" },
         { name: "圈子", path: "/friends" },
         { name: "归档", path: "/timelines" },
       ],

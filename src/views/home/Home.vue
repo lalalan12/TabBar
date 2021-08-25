@@ -3,13 +3,14 @@
   <div class="home">
     <home-top />
     <home-article />
+    <footer-bar />
   </div>
 </template>
 
 <script>
 import HomeTop from "./homechild/HomeTop.vue";
-import HomeActicle from "./homechild/HomeArticle.vue";
 import HomeArticle from "./homechild/HomeArticle.vue";
+import FooterBar from "components/content/FooterBar.vue";
 export default {
   data() {
     return {};
@@ -17,6 +18,7 @@ export default {
   components: {
     HomeTop,
     HomeArticle,
+    FooterBar,
   },
 };
 </script>

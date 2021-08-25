@@ -15,3 +15,8 @@ a {
 li {
   list-style: none;
 }
+
+input,
+textarea {
+  outline: none;
+}
